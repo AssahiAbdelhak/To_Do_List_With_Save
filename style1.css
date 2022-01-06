@@ -1,0 +1,58 @@
+body {
+    font-size: 1.3em;
+}
+
+form {
+    background: #ddd;
+    padding: 20px;
+    margin: 5% 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input[type="text"] {
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 75%;
+}
+
+.btn {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(255, 166, 0);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.result {
+    padding: 20px;
+    background: #ddd;
+    margin: 0 20%;
+    border-radius: 10px;
+}
+
+.task {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: inherit;
+    margin-bottom: 10px;
+}
+
+.task .btn1 {
+    height: 20px;
+    font-size: .7em;
+    line-height: 20px;
+}
